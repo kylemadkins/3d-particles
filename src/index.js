@@ -47,8 +47,8 @@ const skull = new Model({
   name: "Skull",
   file: "./models/skull.glb",
   scene,
-  color1: "#A5E1AD",
-  color2: "#FF616D"
+  color1: "#F9A03F",
+  color2: "#EE6C4D"
 });
 
 /*------------------------------
