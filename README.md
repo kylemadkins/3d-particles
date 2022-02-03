@@ -53,7 +53,7 @@ That will open a new window in your browser at http://localhost:8080/
 ### 📝 Vertex Shader Sample
 ``` 
 void main() {
-  vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+  vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
   gl_Position = projectionMatrix * mvPosition;
   gl_PointSize = 8.0 / -mvPosition.z;
 }
